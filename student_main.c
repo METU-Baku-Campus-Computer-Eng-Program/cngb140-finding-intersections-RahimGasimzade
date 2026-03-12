@@ -53,7 +53,7 @@ int main() {
 
     for (i = 0; i < count; i++)
     {
-        for (j = 0; j < count - 1; j++)
+        for (j = 0; j < count - 1 - i; j++)
         {
             if (intersection[j] > intersection[j + 1])
             {
