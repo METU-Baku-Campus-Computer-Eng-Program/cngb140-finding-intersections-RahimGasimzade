@@ -32,16 +32,16 @@ int main() {
         {
             if (set1[i] == set2[j])
             {
-                bool inList = false;
+                int inList = 0;
                 for (int k = 0; k < count; k++)
                 {
                     if (intersection[k] == set1[i])
                     {
-                        inList = true;
+                        inList = 1;
                         break;
                     }
                 }
-                if (!inList)
+                if (inList != 1)
                 {
                     intersection[count] = set1[i];
                     count++;
