@@ -25,7 +25,7 @@ int main() {
          3. Store the common numbers in the 'intersection' array.
     */
     //----------------------------------------------------------------//
-    
+    {
     for (int i = 0; i < n1; i++)
     {
         for (int j = 0; j < n2; j++)
@@ -63,7 +63,7 @@ int main() {
             }
         }
     }
-    
+    }
     //----------------------------------------------------------------//
     for(i = 0; i < count; i++) {
         printf("%d ", intersection[i]);
